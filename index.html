@@ -4,63 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
     <title>Jinyoung Seo</title>
     <style>
-         * {
+         {
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box
         }
 
-        html {
-            margin: 0;
-            padding: 0;
-            height: 100%
-        }
 
-        
-
-        #content {
-            max-width: 600px;
-            margin: 0 auto
-        }
-
-        @media (min-width: 992px) {
+        @media (min-width: 992px) 
+        {
             body {
                 padding: 35px 50px
             }
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            margin-bottom: 1rem;
-            line-height: 1.25;
-            color: #313131
-        }
-
-        h1 {
-            font-size: 2rem
-        }
-
-        h2 {
-            margin-top: 1rem;
-            font-size: 1.5rem
-        }
-
-        h3 {
-            margin-top: 1.5rem;
-            font-size: 1.25rem
-        }
-
-        h4,
-        h5,
-        h6 {
-            margin-top: 1.1rem;
-            font-size: 1.1rem
         }
 
         img {
@@ -78,7 +37,7 @@
             font-family: 'Times New Roman', Times, serif, sans-serif;
             color: #333333;
             padding: 30px;
-            margin: 60px;
+            margin: 45px;
             background-color: #f5f5f5;
            /* -webkit-font-smoothing: antialiased;
             -webkit-text-size-adjust: 100% */
@@ -87,13 +46,15 @@
 
     /* Styles for all h1 elements */
     h1 {
-        color: #333;
+        color: #313131;
         font-size: 2.1em;
+        line-height: 1.25;
+        margin-bottom: 1rem;
     }
 
     /* Styles for all h2 elements */
     h2 {
-        color: #333;
+        color: #313131;
         font-size: 1.7em;
         line-height: 0.5;
         margin-top: 2.2rem;
@@ -102,15 +63,15 @@
 
     /* Styles for all p elements */
     p {
-        color: #333;
+        color: #313131;
         font-size: 1.3em;
-        line-height: 0.5;
+        line-height: 1;
         margin-top: 2.2rem;
     }
 
     /* Styles for all li elements */
     li {
-        color: #333;
+        color: #313131;
         font-size: 1.4em;
         line-height: 1.45;
     }
@@ -124,9 +85,31 @@
     a:hover {
         text-decoration: underline;
     }
-    </style>
-    
 
+    @media screen and (max-width: 600px) {
+            body {
+                margin: 5px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2  {
+                font-size: 1.2em;
+            }
+
+            li {
+                font-size: 1em;   
+            }
+                
+            p {
+                font-size: 0.9em;
+            }
+        }
+
+
+
+    </style>
 </head>
 
 <body>
